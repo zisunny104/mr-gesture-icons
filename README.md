@@ -19,7 +19,7 @@
 | 04 | 下一步 `next` | <img src="domestic/realistic/realistic-04-next-0-complete.png" width="180" alt="domestic 04 next"> <br> 食指向右伸直，其餘四指收合（手背側） | <img src="international/realistic/realistic-04-next-0-complete.png" width="180" alt="international 04 next"> <br> 食指向右伸直，其餘四指收合（手背側） |
 | 05 | 放大 `zoom-in` | <img src="domestic/realistic/realistic-05-zoom-in-0-complete.png" width="180" alt="domestic 05 zoom-in"> <br> 五指由收合逐漸張開（手背朝自己，拇指在左側） | <img src="international/realistic/realistic-05-zoom-in-0-complete.png" width="180" alt="international 05 zoom-in"> <br> 拇指與食指由接觸分開，其餘三指收合 |
 | 06 | 縮小 `zoom-out` | <img src="domestic/realistic/realistic-06-zoom-out-0-complete.png" width="180" alt="domestic 06 zoom-out"> <br> 五指由張開逐漸收合（手背朝自己，拇指在左側） | <img src="international/realistic/realistic-06-zoom-out-0-complete.png" width="180" alt="international 06 zoom-out"> <br> 拇指與食指由分開到接觸，其餘三指收合 |
-| 07 | 重播 `reload` | <img src="domestic/realistic/realistic-07-reload-0-complete.png" width="180" alt="domestic 07 reload"> <br> 整手伸展，沿順時針軌跡畫圈；單一右手與同一傾斜橢圓上的兩段順時針弧箭頭（保留兩處缺口） | <img src="international/realistic/realistic-07-reload-0-complete.png" width="180" alt="international 07 reload"> <br> 其餘手指收合，食指順時針畫圈（手背側）；單一右手與同一傾斜橢圓上的兩段順時針弧箭頭（保留兩處缺口） |
+| 07 | 重播 `reload` | <img src="domestic/realistic/realistic-07-reload-0-complete.png" width="180" alt="domestic 07 reload"> <br> 整手伸展，沿順時針軌跡畫圈；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） | <img src="international/realistic/realistic-07-reload-0-complete.png" width="180" alt="international 07 reload"> <br> 其餘手指收合，食指順時針畫圈（手背側）；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） |
 | 08 | 截圖 `capture` | <img src="domestic/realistic/realistic-08-capture-0-complete.png" width="180" alt="domestic 08 capture"> <br> 拇指與食指由分開到接觸捏合，其餘三指收合 | <img src="international/realistic/realistic-08-capture-0-complete.png" width="180" alt="international 08 capture"> <br> 拇指與食指各彎一個指節，指尖仍分開；其餘三指收合 |
 | 09 | 關閉 `close` | <img src="domestic/realistic/realistic-09-close-0-complete.png" width="180" alt="domestic 09 close"> <br> 五指收合成拳 | <img src="international/realistic/realistic-09-close-0-complete.png" width="180" alt="international 09 close"> <br> 五指收合成拳 |
 
@@ -41,6 +41,6 @@
 
 依研究者提供的原九宮格（本國組）、黃色表格（非本國組）與 [HackMD 實拍](https://hackmd.io/vlS1KejZR96oRrO-DFbUiA) 核對。統一使用本人看自己右手的第一人稱視角，逐張核對掌背面與拇指位置。
 
-`realistic-` 為解剖線稿 PNG，以研究者重附的五張產圖為風格基準，補圖使用 OpenAI imagegen。左側灰線表示起始姿態、右側黑線表示結束姿態，動態圖在同一畫布左右分開，左灰表示先比的姿態、右黑表示後比的姿態；不使用表示前後順序的向右箭頭；重播依研究者實拍右手呈現單一姿態，手腕帶動整手旋轉，使用同一傾斜橢圓上的兩段順時針弧箭頭，保留兩處缺口，黑線描白邊；開放式尖端與弧線相連，不使用實心三角形。PNG 具有透明外背景與白色手部內底。原 SVG 與舊 PNG 保留供追溯，README 預覽引用新版本。
+`realistic-` 為解剖線稿 PNG，以研究者重附的五張產圖為風格基準，補圖使用 OpenAI imagegen。左側灰線表示起始姿態、右側黑線表示結束姿態，動態圖在同一畫布左右分開，左灰表示先比的姿態、右黑表示後比的姿態；不使用表示前後順序的向右箭頭；重播依研究者實拍右手呈現單一姿態，手腕帶動整手旋轉，使用同一透視橢圓上的兩段順時針弧箭頭，保留兩處缺口，黑線描白邊；開放式尖端與弧線相連，不使用實心三角形。PNG 具有透明外背景與白色手部內底。原 SVG 與舊 PNG 保留供追溯，README 預覽引用新版本。
 
 解剖線稿 PNG 位於 `domestic/realistic/` 與 `international/realistic/`，與各組 `png/` 資料夾同層。
