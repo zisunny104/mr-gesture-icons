@@ -13,7 +13,7 @@
 <path d="M 204,158 L 203,180"/>
 <path d="M 224,181 L 221,197"/>
 </g>
-<g id="motion" stroke="#111111" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<g id="motion" stroke="#111111" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
 <path d="M 112,98 Q 96,110 99,130"/><path d="M 92,123 L 99,132 L 106,123"/>
 </g>
 </svg>

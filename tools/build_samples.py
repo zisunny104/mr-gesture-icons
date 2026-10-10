@@ -4,6 +4,7 @@ from xml.sax.saxutils import escape
 ROOT=Path(__file__).resolve().parents[1]
 # Original path drawings, not traced or copied from source-deck vectors.
 POINT='M 147,269 L 144,241 C 139,229 128,224 116,211 L 82,174 C 76,167 77,159 84,156 C 89,154 95,156 100,161 L 128,184 C 130,186 133,185 132,180 L 123,91 C 122,82 127,77 133,77 C 140,77 144,82 145,90 L 152,141 C 157,134 165,135 172,142 C 179,135 188,139 194,147 C 201,143 210,148 213,156 L 228,191 C 233,205 228,222 224,233 L 221,269'
+POINT_END=POINT.replace('L 123,91 C 122,82 127,77 133,77 C 140,77 144,82 145,90 L 152,141', 'C 138,165 140,156 145,145 L 169,91 C 173,82 181,82 185,88 C 191,94 191,98 184,109 L 152,141')
 POINT_DETAILS=['M 152,141 L 157,162','M 172,142 L 178,162','M 194,147 L 199,166','M 132,180 C 144,180 152,186 155,197']
 # Thumb is stable. Index moves downward while retaining a visible gap at the end.
 TAIL='C 180,155 180,143 182,135 C 184,125 192,123 198,128 C 204,134 203,146 204,158 C 205,146 213,141 220,147 C 227,154 224,169 224,181 C 229,171 237,174 239,183 C 243,204 234,223 226,237 L 224,269'
@@ -26,15 +27,15 @@ def write(command,stage,title,body):
 for stage,path in [('1-start',START),('2-end',END)]:
  write('08-capture',stage,'截圖：半捏合快門 '+stage,hand(path,DETAILS,'#111111',ident='start' if stage.startswith('1') else 'end'))
 # Moving index is legible above stable geometry: the shared palm/wrist naturally overlap.
-body=hand(START,DETAILS,'#B8B8B8',ident='start')+'\n'+hand(END,DETAILS,'#111111',ident='end')+'''\n<g id="motion" stroke="#111111" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+body=hand(START,DETAILS,'#B8B8B8',ident='start')+'\n'+hand(END,DETAILS,'#111111',ident='end')+'''\n<g id="motion" stroke="#111111" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
 <path d="M 112,98 Q 96,110 99,130"/><path d="M 92,123 L 99,132 L 106,123"/>
 </g>'''
 write('08-capture','0-complete','截圖：半捏合快門完整示意',body)
-# Finger traverses a clockwise circle, not twisting about the finger's longitudinal axis.
-for stage,tx in [('1-start',-47),('2-end',47)]:
- write('07-reload',stage,'重播：食指順時針畫圈 '+stage,hand(POINT,POINT_DETAILS,'#111111',f'translate({tx} 0)',ident='start' if stage.startswith('1') else 'end'))
-body=hand(POINT,POINT_DETAILS,'#B8B8B8','translate(-47 0)',ident='start')+'\n'+hand(POINT,POINT_DETAILS,'#111111','translate(47 0)',ident='end')+'''\n<g id="motion" stroke="#111111" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-<path d="M 108,54 A 58,45 0 1 1 102,112"/>
-<path d="M 100,125 L 101,111 L 114,115"/>
+# Palm and non-index fingers share identical geometry; only the index changes.
+for stage,path in [('1-start',POINT),('2-end',POINT_END)]:
+ write('07-reload',stage,'重播：食指順時針畫圈 '+stage,hand(path,POINT_DETAILS,'#111111',ident='start' if stage.startswith('1') else 'end'))
+body=hand(POINT,POINT_DETAILS,'#B8B8B8',ident='start')+'\n'+hand(POINT_END,POINT_DETAILS,'#111111',ident='end')+'''\n<g id="motion" stroke="#111111" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 142,18 A 43,28 0 1 1 124,42"/>
+<path d="M 117,52 L 124,42 L 132,52"/>
 </g>'''
-write('07-reload','0-complete','重播：食指順時針畫圈完整示意',body)
+write('07-reload','0-complete','重播：僅食指順時針畫圈完整示意',body)
