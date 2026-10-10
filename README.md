@@ -13,15 +13,15 @@
 
 | 編號 | 指令／檔名 | 本國組 | 非本國組 |
 |---|---|---|---|
-| 01 | 開啟 `open` | <img src="domestic/png/01-open-0-complete.png" width="180" alt="domestic 01 open"> <br> 比讚 | <img src="international/png/01-open-0-complete.png" width="180" alt="international 01 open"> <br> 食指靜態向前指 |
-| 02 | 確認 `confirm` | <img src="domestic/png/02-confirm-0-complete.png" width="180" alt="domestic 02 confirm"> <br> OK | <img src="international/png/02-confirm-0-complete.png" width="180" alt="international 02 confirm"> <br> 比讚 |
-| 03 | 上一步 `previous` | <img src="domestic/png/03-previous-0-complete.png" width="180" alt="domestic 03 previous"> <br> 食指指向左（掌側，拇指收起） | <img src="international/png/03-previous-0-complete.png" width="180" alt="international 03 previous"> <br> 食指指向左（掌側，拇指收起） |
-| 04 | 下一步 `next` | <img src="domestic/png/04-next-0-complete.png" width="180" alt="domestic 04 next"> <br> 食指指向右（掌側，拇指收起） | <img src="international/png/04-next-0-complete.png" width="180" alt="international 04 next"> <br> 食指指向右（掌側，拇指收起） |
-| 05 | 放大 `zoom-in` | <img src="domestic/png/05-zoom-in-0-complete.png" width="180" alt="domestic 05 zoom-in"> <br> 手掌展開 | <img src="international/png/05-zoom-in-0-complete.png" width="180" alt="international 05 zoom-in"> <br> 拇指與食指展開 |
-| 06 | 縮小 `zoom-out` | <img src="domestic/png/06-zoom-out-0-complete.png" width="180" alt="domestic 06 zoom-out"> <br> 手掌收合 | <img src="international/png/06-zoom-out-0-complete.png" width="180" alt="international 06 zoom-out"> <br> 拇指與食指捏合 |
-| 07 | 重播 `reload` | <img src="domestic/png/07-reload-0-complete.png" width="180" alt="domestic 07 reload"> <br> 手掌順時針畫圈 | <img src="international/png/07-reload-0-complete.png" width="180" alt="international 07 reload"> <br> 食指順時針畫圈 |
-| 08 | 截圖 `capture` | <img src="domestic/png/08-capture-0-complete.png" width="180" alt="domestic 08 capture"> <br> 沿用研究者指定的截圖手型 | <img src="international/png/08-capture-0-complete.png" width="180" alt="international 08 capture"> <br> 拇指與食指各彎一個指節 |
-| 09 | 關閉 `close` | <img src="domestic/png/09-close-0-complete.png" width="180" alt="domestic 09 close"> <br> 握拳 | <img src="international/png/09-close-0-complete.png" width="180" alt="international 09 close"> <br> 握拳 |
+| 01 | 開啟 `open` | <img src="domestic/png/01-open-0-complete.png" width="180" alt="domestic 01 open"> <br> 拇指伸直朝上，其餘四指收合 | <img src="international/png/01-open-0-complete.png" width="180" alt="international 01 open"> <br> 食指靜態指向前方，其餘四指收合（手背側） |
+| 02 | 確認 `confirm` | <img src="domestic/png/02-confirm-0-complete.png" width="180" alt="domestic 02 confirm"> <br> 拇指與食指接觸成圈，其餘三指伸出 | <img src="international/png/02-confirm-0-complete.png" width="180" alt="international 02 confirm"> <br> 拇指伸直朝上，其餘四指收合 |
+| 03 | 上一步 `previous` | <img src="domestic/png/03-previous-0-complete.png" width="180" alt="domestic 03 previous"> <br> 食指向左伸直，其餘四指收合（掌側） | <img src="international/png/03-previous-0-complete.png" width="180" alt="international 03 previous"> <br> 食指向左伸直，其餘四指收合（掌側） |
+| 04 | 下一步 `next` | <img src="domestic/png/04-next-0-complete.png" width="180" alt="domestic 04 next"> <br> 食指向右伸直，其餘四指收合（掌側） | <img src="international/png/04-next-0-complete.png" width="180" alt="international 04 next"> <br> 食指向右伸直，其餘四指收合（掌側） |
+| 05 | 放大 `zoom-in` | <img src="domestic/png/05-zoom-in-0-complete.png" width="180" alt="domestic 05 zoom-in"> <br> 五指由收合逐漸張開 | <img src="international/png/05-zoom-in-0-complete.png" width="180" alt="international 05 zoom-in"> <br> 拇指與食指由接觸分開，其餘三指收合 |
+| 06 | 縮小 `zoom-out` | <img src="domestic/png/06-zoom-out-0-complete.png" width="180" alt="domestic 06 zoom-out"> <br> 五指由張開逐漸收合 | <img src="international/png/06-zoom-out-0-complete.png" width="180" alt="international 06 zoom-out"> <br> 拇指與食指由分開到接觸，其餘三指收合 |
+| 07 | 重播 `reload` | <img src="domestic/png/07-reload-0-complete.png" width="180" alt="domestic 07 reload"> <br> 五指張開，整手沿順時針軌跡移動 | <img src="international/png/07-reload-0-complete.png" width="180" alt="international 07 reload"> <br> 其餘四指收合，食指順時針畫圈（手背側） |
+| 08 | 截圖 `capture` | <img src="domestic/png/08-capture-0-complete.png" width="180" alt="domestic 08 capture"> <br> 拇指與食指接觸捏合，其餘三指收合 | <img src="international/png/08-capture-0-complete.png" width="180" alt="international 08 capture"> <br> 拇指與食指各彎一個指節，其餘三指收合 |
+| 09 | 關閉 `close` | <img src="domestic/png/09-close-0-complete.png" width="180" alt="domestic 09 close"> <br> 五指收合成拳 | <img src="international/png/09-close-0-complete.png" width="180" alt="international 09 close"> <br> 五指收合成拳 |
 
 ## 命名原則
 
@@ -35,7 +35,7 @@
 
 例如 `08-capture-0-complete.svg`。篩選 `-complete.svg` 可取得兩組共 18 張完整圖；連同動態拆分版本，共 34 張 SVG。
 
-完整圖另存同名 PNG，分別放在 `domestic/png/` 與 `international/png/`，透明背景，1920 × 1920。修改直接更新原圖，預覽與討論留在對話中。
+完整圖另存同名 PNG，分別放在 `domestic/png/` 與 `international/png/`，透明背景，1920 × 1920；黑線外加細白色描邊，深色背景也能辨識。修改直接更新原圖，預覽與討論留在對話中。
 
 ## 製作方式
 
