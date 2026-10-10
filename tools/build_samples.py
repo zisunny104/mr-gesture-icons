@@ -17,9 +17,10 @@ def hand(path,details,color,transform=None,ident='hand'):
  t=f' transform="{transform}"' if transform else ''
  return f'<g id="{ident}" stroke="{color}" {STYLE}{t}>\n'+''.join(f'<path d="{p}"/>\n' for p in [path,*details])+'</g>'
 def svg(title,body):
+ desc = "右手側面簡化線條，食指伸出、拇指收於掌側。圓弧箭頭表示順時針畫圈，動作端點待確認。" if "重播" in title else "右手簡化線條樣圖。灰色為起始姿態，黑色為結束姿態；箭頭表示運動方向。待研究者確認。"
  return f'''<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
 <title id="title">{escape(title)}</title>
-<desc id="desc">右手簡化線條樣圖。灰色為起始姿態，黑色為結束姿態；箭頭表示運動方向。待研究者確認。</desc>
+<desc id="desc">{desc}</desc>
 {body}
 </svg>\n'''
 def write(command,stage,title,body):
@@ -31,11 +32,13 @@ body=hand(START,DETAILS,'#B8B8B8',ident='start')+'\n'+hand(END,DETAILS,'#111111'
 <path d="M 112,98 Q 96,110 99,130"/><path d="M 92,123 L 99,132 L 106,123"/>
 </g>'''
 write('08-capture','0-complete','截圖：半捏合快門完整示意',body)
-# Palm and non-index fingers share identical geometry; only the index changes.
-for stage,path in [('1-start',POINT),('2-end',POINT_END)]:
- write('07-reload',stage,'重播：食指順時針畫圈 '+stage,hand(path,POINT_DETAILS,'#111111',ident='start' if stage.startswith('1') else 'end'))
-body=hand(POINT,POINT_DETAILS,'#B8B8B8',ident='start')+'\n'+hand(POINT_END,POINT_DETAILS,'#111111',ident='end')+'''\n<g id="motion" stroke="#111111" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-<path d="M 142,18 A 43,28 0 1 1 124,42"/>
-<path d="M 117,52 L 124,42 L 132,52"/>
+# Real-hand reference shows one pose only: avoid inventing start/end postures.
+SIDE='M 291,252 L 254,230 C 240,211 235,192 221,179 C 207,166 190,157 172,146 L 123,105 C 113,97 100,98 103,108 C 106,114 120,128 133,142 L 147,158 C 157,170 162,183 155,193 C 145,201 133,207 128,218 C 122,229 133,239 147,239 L 158,240 C 154,247 159,258 171,262 L 185,263 C 183,270 191,278 204,278 L 225,274 C 239,270 252,269 262,274 L 291,290'
+SIDE_DETAILS=['M 155,193 C 173,191 191,199 201,213','M 147,239 C 165,233 177,239 179,252','M 185,263 C 197,254 214,257 221,269']
+body=hand(SIDE,SIDE_DETAILS,'#111111',ident='hand')+'''\n<g id="motion" stroke="#111111" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 73,117 A 48,46 0 1 1 151,70"/>
+<path d="M 145,58 L 151,71 L 162,63"/>
 </g>'''
-write('07-reload','0-complete','重播：僅食指順時針畫圈完整示意',body)
+write('07-reload','0-complete','重播：食指順時針畫圈，依真實手型修訂',body)
+for obsolete in ['07-reload-1-start.svg','07-reload-2-end.svg']:
+ (ROOT/'international'/obsolete).unlink(missing_ok=True)
