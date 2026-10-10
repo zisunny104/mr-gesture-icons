@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+<title id="title">重播：食指順時針畫圈 2-end</title>
+<desc id="desc">右手簡化線條樣圖。灰色為起始姿態，黑色為結束姿態；箭頭表示運動方向。待研究者確認。</desc>
+<g id="end" stroke="#111111" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" transform="translate(47 0)">
+<path d="M 147,269 L 144,241 C 139,229 128,224 116,211 L 82,174 C 76,167 77,159 84,156 C 89,154 95,156 100,161 L 128,184 C 130,186 133,185 132,180 L 123,91 C 122,82 127,77 133,77 C 140,77 144,82 145,90 L 152,141 C 157,134 165,135 172,142 C 179,135 188,139 194,147 C 201,143 210,148 213,156 L 228,191 C 233,205 228,222 224,233 L 221,269"/>
+<path d="M 152,141 L 157,162"/>
+<path d="M 172,142 L 178,162"/>
+<path d="M 194,147 L 199,166"/>
+<path d="M 132,180 C 144,180 152,186 155,197"/>
+</g>
+</svg>
