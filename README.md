@@ -44,3 +44,15 @@
 `realistic-` 為解剖線稿 PNG，以研究者重附的五張產圖為風格基準，補圖使用 OpenAI imagegen。左側灰線表示起始姿態、右側黑線表示結束姿態，動態圖在同一畫布左右分開，左灰表示先比的姿態、右黑表示後比的姿態；不使用表示前後順序的向右箭頭；重播依研究者實拍右手呈現單一姿態，手腕帶動整手旋轉，使用同一透視橢圓上的兩段順時針弧箭頭，保留兩處缺口，黑線描白邊；開放式尖端與弧線相連，不使用實心三角形。PNG 具有透明外背景與白色手部內底。原 SVG 與舊 PNG 保留供追溯，README 預覽引用新版本。
 
 解剖線稿 PNG 位於 `domestic/realistic/` 與 `international/realistic/`，與各組 `png/` 資料夾同層。
+
+## GIF 動態試作
+
+GIF 與同名 PNG 並存，不覆蓋靜態版本。這版以四個關鍵姿態示範動作，透明外背景、白色手部內底；手腕位置對齊。放大／縮小結束停留 1 秒，短暫留白後重新播放，避免反向回程混淆指令。外國截圖在食指與拇指各折一個指節、指尖保持分開的姿態停留 1 秒後返回。
+
+| 指令 | 本國 | 外國 |
+| --- | --- | --- |
+| 放大 | <img src="domestic/realistic/realistic-05-zoom-in-0-complete.gif" width="180" alt="本國放大 GIF"> | <img src="international/realistic/realistic-05-zoom-in-0-complete.gif" width="180" alt="外國放大 GIF"> |
+| 縮小 | <img src="domestic/realistic/realistic-06-zoom-out-0-complete.gif" width="180" alt="本國縮小 GIF"> | <img src="international/realistic/realistic-06-zoom-out-0-complete.gif" width="180" alt="外國縮小 GIF"> |
+| 截圖 | — | <img src="international/realistic/realistic-08-capture-0-complete.gif" width="180" alt="外國截圖 GIF"> |
+
+姿態影格以 OpenAI imagegen 製作，使用既有 PNG 作為右手結構及線稿風格參考，再將影格對齊並編碼為 GIF。
