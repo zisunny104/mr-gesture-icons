@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
-<title id="title">重播：食指順時針畫圈，依真實手型修訂</title>
-<desc id="desc">右手側面簡化線條，食指伸出、拇指收於掌側。依真實手型修訂，圓弧箭頭表示順時針畫圈。照片沒有動作端點，暫不繪製推測的起始與結束姿態。待研究者確認。</desc>
-<g id="hand" stroke="#111111" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-<path d="M 291,252 L 254,230 C 240,211 235,192 221,179 C 207,166 190,157 172,146 L 123,105 C 113,97 100,98 103,108 C 106,114 120,128 133,142 L 147,158 C 157,170 162,183 155,193 C 145,201 133,207 128,218 C 122,229 133,239 147,239 L 158,240 C 154,247 159,258 171,262 L 185,263 C 183,270 191,278 204,278 L 225,274 C 239,270 252,269 262,274 L 291,290"/>
-<path d="M 155,193 C 173,191 191,199 201,213"/>
-<path d="M 147,239 C 165,233 177,239 179,252"/>
-<path d="M 185,263 C 197,254 214,257 221,269"/>
-</g>
-<g id="motion" stroke="#111111" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-<path d="M 73,117 A 48,46 0 1 1 151,70"/>
-<path d="M 145,58 L 151,71 L 162,63"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc"><title id="title">重播：international 0-complete</title><desc id="desc">僅食指示意順時針畫圈，手掌與其餘手指固定。灰黑姿態是共同指根的示意相位，並非照片測得的精確端點。灰色起始，黑色結束，箭頭為動作方向。第一版樣圖，待研究者確認。</desc><g id="start" stroke="#B8B8B8" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M 147,269 L 144,241 C 139,229 128,224 116,211 L 82,174 C 76,167 77,159 84,156 C 89,154 95,156 100,161 L 128,184 C 130,186 133,185 132,180 C 138,170 141,156 141,146 L 134,91 C 133,82 138,77 144,77 C 151,77 155,83 155,91 L 154,147 C 159,135 168,137 172,144 C 179,136 188,140 194,148 C 201,144 210,149 213,157 L 228,191 C 233,205 228,222 224,233 L 221,269"/><path d="M 154,147 L 157,165"/><path d="M 172,144 L 178,165"/><path d="M 194,148 L 199,168"/><path d="M 132,180 C 144,180 152,186 155,197"/></g><g id="end" stroke="#111111" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M 147,269 L 144,241 C 139,229 128,224 116,211 L 82,174 C 76,167 77,159 84,156 C 89,154 95,156 100,161 L 128,184 C 130,186 133,185 132,180 C 138,170 141,156 141,146 L 150,115 L 156,94 C 158,86 165,84 169,89 C 173,94 173,100 167,108 L 155,130 L 154,147 C 159,135 168,137 172,144 C 179,136 188,140 194,148 C 201,144 210,149 213,157 L 228,191 C 233,205 228,222 224,233 L 221,269"/><path d="M 154,147 L 157,165"/><path d="M 172,144 L 178,165"/><path d="M 194,148 L 199,168"/><path d="M 132,180 C 144,180 152,186 155,197"/></g><g id="motion" stroke="#111111" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M 142,18 A 43,28 0 1 1 124,42"/><path d="M 117,52 L 124,42 L 132,52"/></g></svg>
