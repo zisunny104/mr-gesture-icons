@@ -1,6 +1,6 @@
 # MR Gesture Icons｜混合實境手勢圖示
 
-兩組研究手勢的對應圖片，供簡報與紙本文件使用。提供兩組共 18 張解剖線稿 PNG（`realistic-`）。
+兩組研究手勢的對應圖片，供簡報與紙本文件使用。提供兩組共 18 張解剖線稿 PNG（`realistic`）。
 
 | 資料夾 | 組別 |
 |---|---|
@@ -13,37 +13,29 @@
 
 | 編號 | 指令／檔名 | 本國組 | 非本國組 |
 |---|---|---|---|
-| 01 | 開啟 `open` | <img src="domestic/realistic/realistic-01-open-0-complete.png" width="180" alt="domestic 01 open"> <br> 拇指伸直朝上，其餘四指收合 | <img src="international/realistic/realistic-01-open-0-complete.png" width="180" alt="international 01 open"> <br> 食指靜態指向前方，其餘四指收合（手背側） |
-| 02 | 確認 `confirm` | <img src="domestic/realistic/realistic-02-confirm-0-complete.png" width="180" alt="domestic 02 confirm"> <br> 拇指與食指接觸成圈，其餘三指伸出 | <img src="international/realistic/realistic-02-confirm-0-complete.png" width="180" alt="international 02 confirm"> <br> 拇指伸直朝上，其餘四指收合 |
-| 03 | 上一步 `previous` | <img src="domestic/realistic/realistic-03-previous-0-complete.png" width="180" alt="domestic 03 previous"> <br> 食指向左伸直，其餘四指收合（掌側） | <img src="international/realistic/realistic-03-previous-0-complete.png" width="180" alt="international 03 previous"> <br> 食指向左伸直，其餘四指收合（掌側） |
-| 04 | 下一步 `next` | <img src="domestic/realistic/realistic-04-next-0-complete.png" width="180" alt="domestic 04 next"> <br> 食指向右伸直，其餘四指收合（手背側） | <img src="international/realistic/realistic-04-next-0-complete.png" width="180" alt="international 04 next"> <br> 食指向右伸直，其餘四指收合（手背側） |
-| 05 | 放大 `zoom-in` | <img src="domestic/realistic/realistic-05-zoom-in-0-complete.png" width="180" alt="domestic 05 zoom-in"> <br> 五指由收合逐漸張開（手背朝自己，拇指在左側） | <img src="international/realistic/realistic-05-zoom-in-0-complete.png" width="180" alt="international 05 zoom-in"> <br> 拇指與食指由接觸分開，其餘三指收合 |
-| 06 | 縮小 `zoom-out` | <img src="domestic/realistic/realistic-06-zoom-out-0-complete.png" width="180" alt="domestic 06 zoom-out"> <br> 五指由張開逐漸收合（手背朝自己，拇指在左側） | <img src="international/realistic/realistic-06-zoom-out-0-complete.png" width="180" alt="international 06 zoom-out"> <br> 拇指與食指由分開到接觸，其餘三指收合 |
-| 07 | 重播 `reload` | <img src="domestic/realistic/realistic-07-reload-0-complete.png" width="180" alt="domestic 07 reload"> <br> 整手伸展，沿順時針軌跡畫圈；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） | <img src="international/realistic/realistic-07-reload-0-complete.png" width="180" alt="international 07 reload"> <br> 其餘手指收合，食指順時針畫圈（手背側）；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） |
-| 08 | 截圖 `capture` | <img src="domestic/realistic/realistic-08-capture-0-complete.png" width="180" alt="domestic 08 capture"> <br> 拇指與食指由分開到接觸捏合，其餘三指收合 | <img src="international/realistic/realistic-08-capture-0-complete.png" width="180" alt="international 08 capture"> <br> 依實拍：食指前端下彎、拇指前端內彎，保留明顯開口且指尖不接觸；其餘三指收合 |
-| 09 | 關閉 `close` | <img src="domestic/realistic/realistic-09-close-0-complete.png" width="180" alt="domestic 09 close"> <br> 五指收合成拳 | <img src="international/realistic/realistic-09-close-0-complete.png" width="180" alt="international 09 close"> <br> 五指收合成拳 |
+| 01 | 開啟 `open` | <img src="domestic/realistic/01-open-domestic-realistic.png" width="180" alt="domestic 01 open"> <br> 拇指伸直朝上，其餘四指收合 | <img src="international/realistic/01-open-international-realistic.png" width="180" alt="international 01 open"> <br> 食指靜態指向前方，其餘四指收合（手背側） |
+| 02 | 確認 `confirm` | <img src="domestic/realistic/02-confirm-domestic-realistic.png" width="180" alt="domestic 02 confirm"> <br> 拇指與食指接觸成圈，其餘三指伸出 | <img src="international/realistic/02-confirm-international-realistic.png" width="180" alt="international 02 confirm"> <br> 拇指伸直朝上，其餘四指收合 |
+| 03 | 上一步 `previous` | <img src="domestic/realistic/03-previous-domestic-realistic.png" width="180" alt="domestic 03 previous"> <br> 食指向左伸直，其餘四指收合（掌側） | <img src="international/realistic/03-previous-international-realistic.png" width="180" alt="international 03 previous"> <br> 食指向左伸直，其餘四指收合（掌側） |
+| 04 | 下一步 `next` | <img src="domestic/realistic/04-next-domestic-realistic.png" width="180" alt="domestic 04 next"> <br> 食指向右伸直，其餘四指收合（手背側） | <img src="international/realistic/04-next-international-realistic.png" width="180" alt="international 04 next"> <br> 食指向右伸直，其餘四指收合（手背側） |
+| 05 | 放大 `zoom-in` | <img src="domestic/realistic/05-zoom-in-domestic-realistic.png" width="180" alt="domestic 05 zoom-in"> <br> 五指由收合逐漸張開（手背朝自己，拇指在左側） | <img src="international/realistic/05-zoom-in-international-realistic.png" width="180" alt="international 05 zoom-in"> <br> 拇指與食指由接觸分開，其餘三指收合 |
+| 06 | 縮小 `zoom-out` | <img src="domestic/realistic/06-zoom-out-domestic-realistic.png" width="180" alt="domestic 06 zoom-out"> <br> 五指由張開逐漸收合（手背朝自己，拇指在左側） | <img src="international/realistic/06-zoom-out-international-realistic.png" width="180" alt="international 06 zoom-out"> <br> 拇指與食指由分開到接觸，其餘三指收合 |
+| 07 | 重播 `reload` | <img src="domestic/realistic/07-reload-domestic-realistic.png" width="180" alt="domestic 07 reload"> <br> 整手伸展，沿順時針軌跡畫圈；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） | <img src="international/realistic/07-reload-international-realistic.png" width="180" alt="international 07 reload"> <br> 其餘手指收合，食指順時針畫圈（手背側）；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） |
+| 08 | 截圖 `capture` | <img src="domestic/realistic/08-capture-domestic-realistic.png" width="180" alt="domestic 08 capture"> <br> 拇指與食指由分開到接觸捏合，其餘三指收合 | <img src="international/realistic/08-capture-international-realistic.png" width="180" alt="international 08 capture"> <br> 依實拍：食指前端下彎、拇指前端內彎，保留明顯開口且指尖不接觸；其餘三指收合 |
+| 09 | 關閉 `close` | <img src="domestic/realistic/09-close-domestic-realistic.png" width="180" alt="domestic 09 close"> <br> 五指收合成拳 | <img src="international/realistic/09-close-international-realistic.png" width="180" alt="international 09 close"> <br> 五指收合成拳 |
 
 ## 命名原則
 
-格式：`兩位指令編號-指令名稱-圖片編號-用途.svg`。兩組使用一致的指令順序。
+舊版 SVG 的 `0-complete`、`1-start`、`2-end` 命名僅適用於存檔內容，暫不調整。
 
-| 後綴 | 用途 |
-|---|---|
-| `-0-complete.svg` | 完整表意；新版 PNG 動態手勢左右分開呈現前後姿態；僅重播保留旋轉箭頭 |
-| `-1-start.svg` | 動態手勢的起始姿態 |
-| `-2-end.svg` | 動態手勢的結束姿態 |
-
-例如 `08-capture-0-complete.svg`。篩選 `-complete.svg` 可取得兩組共 18 張完整圖；連同動態拆分版本，共 34 張 SVG。
-
-新版 PNG 使用 `realistic-兩位編號-指令名稱-0-complete.png`，放在 `domestic/realistic/` 與 `international/realistic/`。兩組各 9 張，透明外背景、白色手部內底。原 SVG 與舊 PNG 保留供追溯。
+目前 PNG／GIF 使用 `兩位編號-指令名稱-組別-風格.副檔名`，例如 `08-capture-international-realistic.gif`，放在 `domestic/realistic/` 與 `international/realistic/`。兩組各 9 張，透明外背景、白色手部內底。原 SVG 與舊 PNG 已移至 `archive/` 存檔，暫不維護，保留供追溯。
 
 ## 製作方式
 
 依研究者提供的原九宮格（本國組）、黃色表格（非本國組）與 [HackMD 實拍](https://hackmd.io/vlS1KejZR96oRrO-DFbUiA) 核對。統一使用本人看自己右手的第一人稱視角，逐張核對掌背面與拇指位置。
 
-`realistic-` 為解剖線稿 PNG，以研究者重附的五張產圖為風格基準，補圖使用 OpenAI imagegen。左側灰線表示起始姿態、右側黑線表示結束姿態，動態圖在同一畫布左右分開，左灰表示先比的姿態、右黑表示後比的姿態；不使用表示前後順序的向右箭頭；重播依研究者實拍右手呈現單一姿態，手腕帶動整手旋轉，使用同一透視橢圓上的兩段順時針弧箭頭，保留兩處缺口，黑線描白邊；開放式尖端與弧線相連，不使用實心三角形。PNG 具有透明外背景與白色手部內底。原 SVG 與舊 PNG 保留供追溯，README 預覽引用新版本。
+`realistic` 為解剖線稿風格，以研究者重附的五張產圖為風格基準，補圖使用 OpenAI imagegen。左側灰線表示起始姿態、右側黑線表示結束姿態，動態圖在同一畫布左右分開，左灰表示先比的姿態、右黑表示後比的姿態；不使用表示前後順序的向右箭頭；重播依研究者實拍右手呈現單一姿態，手腕帶動整手旋轉，使用同一透視橢圓上的兩段順時針弧箭頭，保留兩處缺口，黑線描白邊；開放式尖端與弧線相連，不使用實心三角形。PNG 具有透明外背景與白色手部內底。原 SVG 與舊 PNG 已移至 `archive/` 存檔，暫不維護，保留供追溯，README 預覽引用新版本。
 
-解剖線稿 PNG 位於 `domestic/realistic/` 與 `international/realistic/`，與各組 `png/` 資料夾同層。
+解剖線稿 PNG 位於 `domestic/realistic/` 與 `international/realistic/`。舊版各組 `png/` 已移至 `archive/`。
 
 ## GIF 動態試作
 
@@ -51,10 +43,10 @@ GIF 與同名 PNG 並存，不覆蓋靜態版本。這版以四個關鍵姿態�
 
 | 指令 | 本國 | 外國 |
 | --- | --- | --- |
-| 放大 | <img src="domestic/realistic/realistic-05-zoom-in-0-complete.gif" width="180" alt="本國放大 GIF"> | <img src="international/realistic/realistic-05-zoom-in-0-complete.gif" width="180" alt="外國放大 GIF"> |
-| 縮小 | <img src="domestic/realistic/realistic-06-zoom-out-0-complete.gif" width="180" alt="本國縮小 GIF"> | <img src="international/realistic/realistic-06-zoom-out-0-complete.gif" width="180" alt="外國縮小 GIF"> |
-| 重播 | <img src="domestic/realistic/realistic-07-reload-0-complete.gif" width="220" alt="本國重播 GIF"> | <img src="international/realistic/realistic-07-reload-0-complete.gif" width="220" alt="外國重播 GIF"> |
-| 截圖 | — | <img src="international/realistic/realistic-08-capture-0-complete.gif" width="180" alt="外國截圖 GIF"> |
+| 放大 | <img src="domestic/realistic/05-zoom-in-domestic-realistic.gif" width="180" alt="本國放大 GIF"> | <img src="international/realistic/05-zoom-in-international-realistic.gif" width="180" alt="外國放大 GIF"> |
+| 縮小 | <img src="domestic/realistic/06-zoom-out-domestic-realistic.gif" width="180" alt="本國縮小 GIF"> | <img src="international/realistic/06-zoom-out-international-realistic.gif" width="180" alt="外國縮小 GIF"> |
+| 重播 | <img src="domestic/realistic/07-reload-domestic-realistic.gif" width="220" alt="本國重播 GIF"> | <img src="international/realistic/07-reload-international-realistic.gif" width="220" alt="外國重播 GIF"> |
+| 截圖 | — | <img src="international/realistic/08-capture-international-realistic.gif" width="180" alt="外國截圖 GIF"> |
 
 姿態影格以 OpenAI imagegen 製作，使用既有 PNG 作為右手結構及線稿風格參考，再將影格對齊並編碼為 GIF。
 
@@ -62,4 +54,11 @@ GIF 與同名 PNG 並存，不覆蓋靜態版本。這版以四個關鍵姿態�
 
 外國截圖 PNG 與 GIF 依 `VID_20261011_173609.mp4` 的確認姿態重畫，兩者使用同一組影格。食指直立部分保留，前端彎曲；拇指前端往內彎，兩指保留明顯間距。PNG 左灰為起始、右黑為完成；GIF 起始停留 900 毫秒，以 60 毫秒過渡快速收合一次，完成停留 1 秒後直接重置，不把展開當成指令動作。
 
-外國截圖 PNG 與 GIF 依 `VID_20261011_173609.mp4` 的確認姿態重畫，兩者使用同一組影格。食指直立部分保留，前端彎曲；拇指前端往內彎，兩指保留明顯間距。PNG 左灰為起始、右黑為完成；GIF 起始停留 900 毫秒，以 60 毫秒過渡快速收合一次，完成停留 1 秒後直接重置，不把展開當成指令動作。
+## 舊版存檔
+
+[archive/](archive/) 保存兩組原始版本，暫不處理：
+
+- `archive/domestic/`：17 張 SVG，舊 PNG 位於 `png/`（9 張）。
+- `archive/international/`：17 張 SVG，舊 PNG 位於 `png/`（9 張）。
+
+存檔保留原檔名與組內目錄結構，目前使用的解剖線稿 PNG／GIF 仍位於兩組各自的 `realistic/`。
