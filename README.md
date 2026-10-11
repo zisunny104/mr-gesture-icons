@@ -20,7 +20,7 @@
 | 05 | 放大 `zoom-in` | <img src="domestic/realistic/realistic-05-zoom-in-0-complete.png" width="180" alt="domestic 05 zoom-in"> <br> 五指由收合逐漸張開（手背朝自己，拇指在左側） | <img src="international/realistic/realistic-05-zoom-in-0-complete.png" width="180" alt="international 05 zoom-in"> <br> 拇指與食指由接觸分開，其餘三指收合 |
 | 06 | 縮小 `zoom-out` | <img src="domestic/realistic/realistic-06-zoom-out-0-complete.png" width="180" alt="domestic 06 zoom-out"> <br> 五指由張開逐漸收合（手背朝自己，拇指在左側） | <img src="international/realistic/realistic-06-zoom-out-0-complete.png" width="180" alt="international 06 zoom-out"> <br> 拇指與食指由分開到接觸，其餘三指收合 |
 | 07 | 重播 `reload` | <img src="domestic/realistic/realistic-07-reload-0-complete.png" width="180" alt="domestic 07 reload"> <br> 整手伸展，沿順時針軌跡畫圈；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） | <img src="international/realistic/realistic-07-reload-0-complete.png" width="180" alt="international 07 reload"> <br> 其餘手指收合，食指順時針畫圈（手背側）；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） |
-| 08 | 截圖 `capture` | <img src="domestic/realistic/realistic-08-capture-0-complete.png" width="180" alt="domestic 08 capture"> <br> 拇指與食指由分開到接觸捏合，其餘三指收合 | <img src="international/realistic/realistic-08-capture-0-complete.png" width="180" alt="international 08 capture"> <br> 拇指與食指各彎一個指節，指尖仍分開；其餘三指收合 |
+| 08 | 截圖 `capture` | <img src="domestic/realistic/realistic-08-capture-0-complete.png" width="180" alt="domestic 08 capture"> <br> 拇指與食指由分開到接觸捏合，其餘三指收合 | <img src="international/realistic/realistic-08-capture-0-complete.png" width="180" alt="international 08 capture"> <br> 依實拍：食指前端下彎、拇指前端內彎，保留明顯開口且指尖不接觸；其餘三指收合 |
 | 09 | 關閉 `close` | <img src="domestic/realistic/realistic-09-close-0-complete.png" width="180" alt="domestic 09 close"> <br> 五指收合成拳 | <img src="international/realistic/realistic-09-close-0-complete.png" width="180" alt="international 09 close"> <br> 五指收合成拳 |
 
 ## 命名原則
@@ -59,3 +59,7 @@ GIF 與同名 PNG 並存，不覆蓋靜態版本。這版以四個關鍵姿態�
 姿態影格以 OpenAI imagegen 製作，使用既有 PNG 作為右手結構及線稿風格參考，再將影格對齊並編碼為 GIF。
 
 重播 GIF 依兩段實拍影片的一圈連續動作製作，保留完整的手掌、手腕與前臂輪廓，允許前臂小幅隨動，不再接上固定前臂。9 個姿態依序播放，包含依實拍補上的掌面／手側上翻影格，每格 180 毫秒；結尾回到與開頭完全相同的角度與影格，停留 450 毫秒後開始下一圈，不反向倒播。本國從手背側角度開始，外國從食指伸出的角度開始。動圖無箭頭，靜態 PNG 保留原有箭頭。這版仍為關鍵姿態試作。
+
+外國截圖 PNG 與 GIF 依 `VID_20261011_173609.mp4` 的確認姿態重畫，兩者使用同一組影格。食指直立部分保留，前端彎曲；拇指前端往內彎，兩指保留明顯間距。PNG 左灰為起始、右黑為完成；GIF 每圈收合一次並停留 1 秒後展開。
+
+外國截圖 PNG 與 GIF 依 `VID_20261011_173609.mp4` 的確認姿態重畫，兩者使用同一組影格。食指直立部分保留，前端彎曲；拇指前端往內彎，兩指保留明顯間距。PNG 左灰為起始、右黑為完成；GIF 每圈收合一次並停留 1 秒後展開。
