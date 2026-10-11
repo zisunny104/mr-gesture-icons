@@ -53,6 +53,9 @@ GIF 與同名 PNG 並存，不覆蓋靜態版本。這版以四個關鍵姿態�
 | --- | --- | --- |
 | 放大 | <img src="domestic/realistic/realistic-05-zoom-in-0-complete.gif" width="180" alt="本國放大 GIF"> | <img src="international/realistic/realistic-05-zoom-in-0-complete.gif" width="180" alt="外國放大 GIF"> |
 | 縮小 | <img src="domestic/realistic/realistic-06-zoom-out-0-complete.gif" width="180" alt="本國縮小 GIF"> | <img src="international/realistic/realistic-06-zoom-out-0-complete.gif" width="180" alt="外國縮小 GIF"> |
+| 重播 | <img src="domestic/realistic/realistic-07-reload-0-complete.gif" width="220" alt="本國重播 GIF"> | <img src="international/realistic/realistic-07-reload-0-complete.gif" width="220" alt="外國重播 GIF"> |
 | 截圖 | — | <img src="international/realistic/realistic-08-capture-0-complete.gif" width="180" alt="外國截圖 GIF"> |
 
 姿態影格以 OpenAI imagegen 製作，使用既有 PNG 作為右手結構及線稿風格參考，再將影格對齊並編碼為 GIF。
+
+重播 GIF 使用 8 個角度影格，每格 180 毫秒循環播放。依研究者實拍右手製作姿態，整手及手腕共同移動，搭配同一透視橢圓上的兩段順時針箭頭，黑線描白邊。這版為姿態影格試作，尚非連續的三維動作重建。
