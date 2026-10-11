@@ -27,15 +27,15 @@
 
 舊版 SVG 的 `0-complete`、`1-start`、`2-end` 命名僅適用於存檔內容，暫不調整。
 
-目前 PNG／GIF 使用 `兩位編號-指令名稱-組別-風格.副檔名`，例如 `08-capture-international-realistic.gif`，放在 `domestic/realistic/` 與 `international/realistic/`。兩組各 9 張，透明外背景、白色手部內底。原 SVG 與舊 PNG 已移至 `archive/` 存檔，暫不維護，保留供追溯。
+目前 PNG／GIF 使用 `兩位編號-指令名稱-組別-風格.副檔名`，例如 `08-capture-international-realistic.gif`，放在 `domestic/realistic/` 與 `international/realistic/`。兩組各 9 張，透明外背景、白色手部內底。原 SVG 與舊 PNG 已移至各組的 `archive/` 存檔，暫不維護，保留供追溯。
 
 ## 製作方式
 
 依研究者提供的原九宮格（本國組）、黃色表格（非本國組）與 [HackMD 實拍](https://hackmd.io/vlS1KejZR96oRrO-DFbUiA) 核對。統一使用本人看自己右手的第一人稱視角，逐張核對掌背面與拇指位置。
 
-`realistic` 為解剖線稿風格，以研究者重附的五張產圖為風格基準，補圖使用 OpenAI imagegen。左側灰線表示起始姿態、右側黑線表示結束姿態，動態圖在同一畫布左右分開，左灰表示先比的姿態、右黑表示後比的姿態；不使用表示前後順序的向右箭頭；重播依研究者實拍右手呈現單一姿態，手腕帶動整手旋轉，使用同一透視橢圓上的兩段順時針弧箭頭，保留兩處缺口，黑線描白邊；開放式尖端與弧線相連，不使用實心三角形。PNG 具有透明外背景與白色手部內底。原 SVG 與舊 PNG 已移至 `archive/` 存檔，暫不維護，保留供追溯，README 預覽引用新版本。
+`realistic` 為解剖線稿風格，以研究者重附的五張產圖為風格基準，補圖使用 OpenAI imagegen。左側灰線表示起始姿態、右側黑線表示結束姿態，動態圖在同一畫布左右分開，左灰表示先比的姿態、右黑表示後比的姿態；不使用表示前後順序的向右箭頭；重播依研究者實拍右手呈現單一姿態，手腕帶動整手旋轉，使用同一透視橢圓上的兩段順時針弧箭頭，保留兩處缺口，黑線描白邊；開放式尖端與弧線相連，不使用實心三角形。PNG 具有透明外背景與白色手部內底。原 SVG 與舊 PNG 已移至各組的 `archive/` 存檔，暫不維護，保留供追溯，README 預覽引用新版本。
 
-解剖線稿 PNG 位於 `domestic/realistic/` 與 `international/realistic/`。舊版各組 `png/` 已移至 `archive/`。
+解剖線稿 PNG 位於 `domestic/realistic/` 與 `international/realistic/`。舊版各組 `png/` 已移至各組的 `archive/`。
 
 ## GIF 動態試作
 
@@ -56,9 +56,9 @@ GIF 與同名 PNG 並存，不覆蓋靜態版本。這版以四個關鍵姿態�
 
 ## 舊版存檔
 
-[archive/](archive/) 保存兩組原始版本，暫不處理：
+[domestic/archive/](domestic/archive/) 與 [international/archive/](international/archive/) 分別保存對應組別的原始版本，暫不處理：
 
-- `archive/domestic/`：17 張 SVG，舊 PNG 位於 `png/`（9 張）。
-- `archive/international/`：17 張 SVG，舊 PNG 位於 `png/`（9 張）。
+- `domestic/archive/`：17 張 SVG，舊 PNG 位於 `png/`（9 張）。
+- `international/archive/`：17 張 SVG，舊 PNG 位於 `png/`（9 張）。
 
 存檔保留原檔名與組內目錄結構，目前使用的解剖線稿 PNG／GIF 仍位於兩組各自的 `realistic/`。
