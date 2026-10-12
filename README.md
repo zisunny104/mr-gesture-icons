@@ -73,4 +73,4 @@ GIF 與同名 PNG 並存，不覆蓋靜態版本。放大／縮小以四個關�
 
 ## 文獻與平台手勢圖示
 
-新增七張與論文文獻探討表格相同的黑白線稿 PNG，包含捏合、拖曳、方向移動、初代 HoloLens Bloom、抓握、揮動與雙手縮放。圖示預覽、動作對照與參考來源見 [literature/README.md](literature/README.md)。
+依論文表 2-1、表 2-2、表 2-3 的資料列順序，分別整理於 `literature/hololens/realistic/`、`literature/meta-quest/realistic/` 與 `literature/apple-vision-pro/realistic/`。每個品牌各五張，檔名含兩位編號、指令與品牌。完整預覽、動作對照與參考來源見 [literature/README.md](literature/README.md)。

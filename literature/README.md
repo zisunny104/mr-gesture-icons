@@ -1,20 +1,46 @@
 # 文獻與平台手勢圖示
 
-2026-10-12 新增，與論文文獻探討表格使用的七張 PNG 相同。依官方互動說明，以 OpenAI imagegen 生成黑白解剖線稿；為研究者製作的動作示意圖，非官方原圖。白色背景、PNG 原始尺寸保留。
+依論文表格順序，分為三個品牌資料夾，每個資料夾包含五張 PNG。檔名格式：`兩位列序號-指令-品牌-realistic.png`；編號對應該表格資料列，由 01 起算。
 
-## 圖示預覽與使用對照
+| 論文表格 | 品牌 | 資料夾 |
+| --- | --- | --- |
+| 表 2-1 | Microsoft HoloLens | [hololens/realistic/](hololens/realistic/) |
+| 表 2-2 | Meta Quest | [meta-quest/realistic/](meta-quest/realistic/) |
+| 表 2-3 | Apple Vision Pro | [apple-vision-pro/realistic/](apple-vision-pro/realistic/) |
 
-| 圖示 | 名稱 | 動作說明 | 文件中的對應 |
+圖示為研究者依官方互動說明，以 OpenAI imagegen 製作的黑白解剖線稿，與 Word 表格使用的圖片相同。共 15 個按品牌與指令命名的檔案，使用七張原始圖稿；共用圖稿仍依各平台的指令分別命名，搭配文字表示觸發時序。PNG 原始尺寸與白色背景保留。
+
+## 表 2-1 Microsoft HoloLens
+
+| 編號 | 指令 | 圖示 | 動作說明 |
 | --- | --- | --- | --- |
-| <img src="realistic/01-pinch-literature-realistic.png" width="180" alt="捏合"> | 捏合 | 拇指與食指指尖接觸。單次點選、長按與連續兩次點選共用此姿態，時間差異由表格文字描述。 | HoloLens Air Tap／Tap and Hold；Meta Pinch；Apple Tap／Double Tap |
-| <img src="realistic/02-drag-literature-realistic.png" width="180" alt="捏合拖曳"> | 捏合拖曳 | 維持捏合並移動整隻手；雙向箭頭示意橫向移動。 | HoloLens Manipulation；Meta Pinch Drag；Apple Drag |
-| <img src="realistic/03-navigation-literature-realistic.png" width="180" alt="方向移動"> | 方向移動 | 維持捏合並移動整隻手；十字箭頭示意水平與垂直方向。 | HoloLens Navigation；Apple Scroll（示意移動方向） |
-| <img src="realistic/04-bloom-literature-realistic.png" width="180" alt="Bloom"> | Bloom | 掌心朝上，五指由指尖聚攏轉為張開；左灰為起始，右黑為結束。 | 初代 HoloLens Bloom |
-| <img src="realistic/05-grab-literature-realistic.png" width="180" alt="整手抓握"> | 整手抓握 | 手指環握示意虛擬球體，表達整手抓取物件。 | Meta Grab |
-| <img src="realistic/06-swipe-literature-realistic.png" width="180" alt="揮動"> | 揮動 | 伸展的手掌橫向移動。 | Meta 應用程式自訂 Swipe |
-| <img src="realistic/07-scale-literature-realistic.png" width="180" alt="雙手縮放"> | 雙手縮放 | 雙手捏合後以兩手距離變化表達縮放。 | Meta 應用程式縮放；Apple Zoom |
+| 01 | Air Tap | <img src="hololens/realistic/01-air-tap-hololens-realistic.png" width="180" alt="Microsoft HoloLens 01 Air Tap"> | 捏合後放開 |
+| 02 | Tap and Hold | <img src="hololens/realistic/02-tap-and-hold-hololens-realistic.png" width="180" alt="Microsoft HoloLens 02 Tap and Hold"> | 保持捏合 |
+| 03 | Manipulation | <img src="hololens/realistic/03-manipulation-hololens-realistic.png" width="180" alt="Microsoft HoloLens 03 Manipulation"> | 捏合後移動 |
+| 04 | Navigation | <img src="hololens/realistic/04-navigation-hololens-realistic.png" width="180" alt="Microsoft HoloLens 04 Navigation"> | 保持捏合後沿方向移動 |
+| 05 | Bloom（初代） | <img src="hololens/realistic/05-bloom-hololens-realistic.png" width="180" alt="Microsoft HoloLens 05 Bloom（初代）"> | 掌心朝上，五指聚合後展開 |
 
-圖示呈現主要姿態與方向；各平台的觸發時間、注視條件與應用情境須搭配文字說明。Apple Scroll 使用方向移動圖表示整手移動，操作說明仍依 Apple 指南；Meta Swipe 與雙手縮放需由應用程式定義或配置。Bloom 僅對應初代 HoloLens。
+## 表 2-2 Meta Quest
+
+| 編號 | 指令 | 圖示 | 動作說明 |
+| --- | --- | --- | --- |
+| 01 | Pinch | <img src="meta-quest/realistic/01-pinch-meta-quest-realistic.png" width="180" alt="Meta Quest 01 Pinch"> | 捏合 |
+| 02 | Pinch and Drag | <img src="meta-quest/realistic/02-pinch-and-drag-meta-quest-realistic.png" width="180" alt="Meta Quest 02 Pinch and Drag"> | 保持捏合並拖曳 |
+| 03 | Grab | <img src="meta-quest/realistic/03-grab-meta-quest-realistic.png" width="180" alt="Meta Quest 03 Grab"> | 整手抓握 |
+| 04 | Swipe（應用程式自訂） | <img src="meta-quest/realistic/04-swipe-meta-quest-realistic.png" width="180" alt="Meta Quest 04 Swipe（應用程式自訂）"> | 橫向揮動 |
+| 05 | Two-hand Scale | <img src="meta-quest/realistic/05-two-hand-scale-meta-quest-realistic.png" width="180" alt="Meta Quest 05 Two-hand Scale"> | 雙手捏合後拉開或靠近 |
+
+## 表 2-3 Apple Vision Pro
+
+| 編號 | 指令 | 圖示 | 動作說明 |
+| --- | --- | --- | --- |
+| 01 | Tap | <img src="apple-vision-pro/realistic/01-tap-apple-vision-pro-realistic.png" width="180" alt="Apple Vision Pro 01 Tap"> | 注視後捏合 |
+| 02 | Double Tap | <img src="apple-vision-pro/realistic/02-double-tap-apple-vision-pro-realistic.png" width="180" alt="Apple Vision Pro 02 Double Tap"> | 連續捏合兩次 |
+| 03 | Drag | <img src="apple-vision-pro/realistic/03-drag-apple-vision-pro-realistic.png" width="180" alt="Apple Vision Pro 03 Drag"> | 保持捏合並拖曳 |
+| 04 | Scroll | <img src="apple-vision-pro/realistic/04-scroll-apple-vision-pro-realistic.png" width="180" alt="Apple Vision Pro 04 Scroll"> | 保持捏合並上下移動整手 |
+| 05 | Zoom | <img src="apple-vision-pro/realistic/05-zoom-apple-vision-pro-realistic.png" width="180" alt="Apple Vision Pro 05 Zoom"> | 雙手捏合後拉開或靠近 |
+
+圖示呈現主要姿態與方向；各平台的觸發時間、注視條件與應用情境須搭配文字說明。Apple Scroll 的圖示表示整手移動方向；Meta Swipe 與雙手縮放需由應用程式定義或配置。Bloom 僅對應初代 HoloLens。
 
 ## 參考來源
 
