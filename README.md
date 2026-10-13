@@ -9,25 +9,27 @@
 
 ## 指令對照
 
+指令與現用圖片編號統一依序為：開啟、關閉、上一步、下一步、放大、縮小、確認、重播、截圖。
+
 下表直接引用兩組的同名 PNG；圖片更新後，這裡同步顯示新版。雙姿態動態圖以左側灰線為起始姿態、右側黑線為結束姿態，兩姿態分開呈現；重播以單一右手搭配順時針箭頭表示。
 
 | 編號 | 指令／檔名 | 本國組 | 非本國組 |
 |---|---|---|---|
 | 01 | 開啟 `open` | <img src="domestic/realistic/01-open-domestic-realistic.png" width="180" alt="domestic 01 open"> <br> 拇指伸直朝上，其餘四指收合 | <img src="international/realistic/01-open-international-realistic.png" width="180" alt="international 01 open"> <br> 食指靜態指向前方，其餘四指收合（手背側） |
-| 02 | 確認 `confirm` | <img src="domestic/realistic/02-confirm-domestic-realistic.png" width="180" alt="domestic 02 confirm"> <br> 拇指與食指接觸成圈，其餘三指伸出 | <img src="international/realistic/02-confirm-international-realistic.png" width="180" alt="international 02 confirm"> <br> 拇指伸直朝上，其餘四指收合 |
+| 02 | 關閉 `close` | <img src="domestic/realistic/02-close-domestic-realistic.png" width="180" alt="domestic 02 close"> <br> 五指收合成拳 | <img src="international/realistic/02-close-international-realistic.png" width="180" alt="international 02 close"> <br> 五指收合成拳 |
 | 03 | 上一步 `previous` | <img src="domestic/realistic/03-previous-domestic-realistic.png" width="180" alt="domestic 03 previous"> <br> 食指向左伸直，其餘四指收合（掌側） | <img src="international/realistic/03-previous-international-realistic.png" width="180" alt="international 03 previous"> <br> 食指向左伸直，其餘四指收合（掌側） |
 | 04 | 下一步 `next` | <img src="domestic/realistic/04-next-domestic-realistic.png" width="180" alt="domestic 04 next"> <br> 食指向右伸直，其餘四指收合（手背側） | <img src="international/realistic/04-next-international-realistic.png" width="180" alt="international 04 next"> <br> 食指向右伸直，其餘四指收合（手背側） |
 | 05 | 放大 `zoom-in` | <img src="domestic/realistic/05-zoom-in-domestic-realistic.png" width="180" alt="domestic 05 zoom-in"> <br> 五指由收合逐漸張開（手背朝自己，拇指在左側） | <img src="international/realistic/05-zoom-in-international-realistic.png" width="180" alt="international 05 zoom-in"> <br> 拇指與食指由接觸分開，其餘三指收合 |
 | 06 | 縮小 `zoom-out` | <img src="domestic/realistic/06-zoom-out-domestic-realistic.png" width="180" alt="domestic 06 zoom-out"> <br> 五指由張開逐漸收合（手背朝自己，拇指在左側） | <img src="international/realistic/06-zoom-out-international-realistic.png" width="180" alt="international 06 zoom-out"> <br> 拇指與食指由分開到接觸，其餘三指收合 |
-| 07 | 重播 `reload` | <img src="domestic/realistic/07-reload-domestic-realistic.png" width="180" alt="domestic 07 reload"> <br> 整手伸展，沿順時針軌跡畫圈；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） | <img src="international/realistic/07-reload-international-realistic.png" width="180" alt="international 07 reload"> <br> 其餘手指收合，食指順時針畫圈（手背側）；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） |
-| 08 | 截圖 `capture` | <img src="domestic/realistic/08-capture-domestic-realistic.png" width="180" alt="domestic 08 capture"> <br> 拇指與食指由分開到接觸捏合，其餘三指收合 | <img src="international/realistic/08-capture-international-realistic.png" width="180" alt="international 08 capture"> <br> 依實拍：食指前端下彎、拇指前端內彎，保留明顯開口且指尖不接觸；其餘三指收合 |
-| 09 | 關閉 `close` | <img src="domestic/realistic/09-close-domestic-realistic.png" width="180" alt="domestic 09 close"> <br> 五指收合成拳 | <img src="international/realistic/09-close-international-realistic.png" width="180" alt="international 09 close"> <br> 五指收合成拳 |
+| 07 | 確認 `confirm` | <img src="domestic/realistic/07-confirm-domestic-realistic.png" width="180" alt="domestic 07 confirm"> <br> 拇指與食指接觸成圈，其餘三指伸出 | <img src="international/realistic/07-confirm-international-realistic.png" width="180" alt="international 07 confirm"> <br> 拇指伸直朝上，其餘四指收合 |
+| 08 | 重播 `reload` | <img src="domestic/realistic/08-reload-domestic-realistic.png" width="180" alt="domestic 08 reload"> <br> 整手伸展，沿順時針軌跡畫圈；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） | <img src="international/realistic/08-reload-international-realistic.png" width="180" alt="international 08 reload"> <br> 其餘手指收合，食指順時針畫圈（手背側）；單一右手與同一透視橢圓上的兩段順時針弧箭頭（保留兩處缺口） |
+| 09 | 截圖 `capture` | <img src="domestic/realistic/09-capture-domestic-realistic.png" width="180" alt="domestic 09 capture"> <br> 拇指與食指由分開到接觸捏合，其餘三指收合 | <img src="international/realistic/09-capture-international-realistic.png" width="180" alt="international 09 capture"> <br> 依實拍：食指前端下彎、拇指前端內彎，保留明顯開口且指尖不接觸；其餘三指收合 |
 
 ## 命名原則
 
 舊版 SVG 的 `0-complete`、`1-start`、`2-end` 命名僅適用於存檔內容，暫不調整。
 
-目前 PNG／GIF 使用 `兩位編號-指令名稱-組別-風格.副檔名`，例如 `08-capture-international-realistic.gif`，放在 `domestic/realistic/` 與 `international/realistic/`。兩組各 9 張，透明外背景、白色手部內底。原 SVG 與舊 PNG 已移至各組的 `archive/` 存檔，暫不維護，保留供追溯。
+目前 PNG／GIF 使用 `兩位編號-指令名稱-組別-風格.副檔名`，例如 `09-capture-international-realistic.gif`，放在 `domestic/realistic/` 與 `international/realistic/`。兩組各 9 張，透明外背景、白色手部內底。原 SVG 與舊 PNG 已移至各組的 `archive/` 存檔，暫不維護，保留供追溯。
 
 ## 製作方式
 
@@ -45,8 +47,8 @@ GIF 與同名 PNG 並存，不覆蓋靜態版本。放大／縮小以四個關�
 | --- | --- | --- |
 | 放大 | <img src="domestic/realistic/05-zoom-in-domestic-realistic.gif" width="180" alt="本國放大 GIF"> | <img src="international/realistic/05-zoom-in-international-realistic.gif" width="180" alt="外國放大 GIF"> |
 | 縮小 | <img src="domestic/realistic/06-zoom-out-domestic-realistic.gif" width="180" alt="本國縮小 GIF"> | <img src="international/realistic/06-zoom-out-international-realistic.gif" width="180" alt="外國縮小 GIF"> |
-| 重播 | <img src="domestic/realistic/07-reload-domestic-realistic.gif" width="220" alt="本國重播 GIF"> | <img src="international/realistic/07-reload-international-realistic.gif" width="220" alt="外國重播 GIF"> |
-| 截圖 | — | <img src="international/realistic/08-capture-international-realistic.gif" width="180" alt="外國截圖 GIF"> |
+| 重播 | <img src="domestic/realistic/08-reload-domestic-realistic.gif" width="220" alt="本國重播 GIF"> | <img src="international/realistic/08-reload-international-realistic.gif" width="220" alt="外國重播 GIF"> |
+| 截圖 | — | <img src="international/realistic/09-capture-international-realistic.gif" width="180" alt="外國截圖 GIF"> |
 
 姿態影格以 OpenAI imagegen 製作，使用既有 PNG 作為右手結構及線稿風格參考，再將影格對齊並編碼為 GIF。
 
@@ -69,7 +71,7 @@ GIF 與同名 PNG 並存，不覆蓋靜態版本。放大／縮小以四個關�
 
 保留真實右手的手腕轉動、掌背變化與食指伸直姿態，其餘手指維持收合；前臂小幅隨動，各姿態完整重畫至共同裁切邊界之外，再以相同邊界輸出為 544 × 544。動圖無箭頭，白色手部內底、透明外背景。逐格核對實拍順序、掌背轉換與循環交界，另檢查 GIF 播放。
 
-此次僅更新 `international/realistic/07-reload-international-realistic.gif` 與本說明；本國版、所有靜態 PNG、截圖及其他圖片保留。
+此次僅更新 `international/realistic/08-reload-international-realistic.gif` 與本說明；本國版、所有靜態 PNG、截圖及其他圖片保留。
 
 ## 文獻與平台手勢圖示
 
